@@ -1,8 +1,16 @@
 {
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
   "comments": [
     { "id": 1, "body": "Con un solo colpo un albero non si abbatte", "postId": 1 },
-    { "id": 2, "body": "Anche l'elefante, colpito al ginocchio, cade", "postId": 2 },
+    { "id": 2, "body": "Anche l'elefante, colpito al ginocchio, cade", "postId": 1 },
 	{ "id": 3, "body": "Mani e piedi come spade", "postId": 3 },
-	{ "id": 4, "body": "Primo comandamento: non prenderle", "postId": 4 },	  
-  ],	
-}// JSON Document
+	{ "id": 4, "body": "Primo comandamento: non prenderle", "postId": 4 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
